@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Overview
 
-## Getting Started
+This project is a full-stack stocks and financial-insights dashboard built by following a step-by-step YouTube tutorial. The goal is to create a modern, production- ready web application that combines authentication, database integration, real-time stock search, detailed market data, and automated daily news summaries.
 
-First, run the development server:
+The project starts with a fresh Next.js setup and gradually evolves into a feature-complete platform through multiple development stages. The structure of the build follows a clear timeline:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Setting up the project structure, layouts, and global UI components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Designing the homepage with charts and real-time financial data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Implementing authentication (UI + logic)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Configuring the database and integrating user accounts
 
-## Learn More
+Building a daily financial news summary system
 
-To learn more about Next.js, take a look at the following resources:
+Adding live stock search and detailed stock information pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deploying the entire application to production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Implementing a mechanism to stop the automated daily emails
 
-## Deploy on Vercel
+(Challenge) Extending the app with full Watchlist CRUD operations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Overall, the project focuses on hands-on learning of modern web development — from UI to backend — while building a functional financial insights tool that fetches market data, presents analytics, and manages user-specific features.

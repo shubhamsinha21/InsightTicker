@@ -1,3 +1,4 @@
+
 'use server';
 
 import {auth} from "@/lib/better-auth/auth";
@@ -17,7 +18,7 @@ export const signUpWithEmail = async ({ email, password, fullName, country, inve
 
         return { success: true, data: response }
     } catch (error) {
-        console.log('Sign up failed', e)
+        console.log('Sign up failed', error)
         return { success: false, error: 'Sign up failed' }
     }
 }
@@ -28,7 +29,7 @@ export const signInWithEmail = async ({ email, password }: SignInFormData) => {
 
         return { success: true, data: response }
     } catch (error) {
-        console.log('Sign in failed', e)
+        console.log('Sign in failed', error)
         return { success: false, error: 'Sign in failed' }
     }
 }
@@ -37,7 +38,7 @@ export const signOut = async () => {
     try {
         await auth.api.signOut({ headers: await headers() });
     } catch (error) {
-        console.log('Sign out failed', e)
+        console.log('Sign out failed', error)
         return { success: false, error: 'Sign out failed' }
     }
 }

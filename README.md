@@ -22,4 +22,7 @@ Implementing a mechanism to stop the automated daily emails
 
 (Challenge) Extending the app with full Watchlist CRUD operations
 
+
+
+50 commits
 Overall, the project focuses on hands-on learning of modern web development — from UI to backend — while building a functional financial insights tool that fetches market data, presents analytics, and manages user-specific features.
